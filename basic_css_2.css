@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="class_A.css
+		<link rel="stylesheet" type="text/css" href="class_A.css">
 	</head>
 	<body>
-		<h1 class="class_A">good morning</h1>
+		<h1> class="class_A" good morning </h1>
 		<h2> good afternoon </h2>
-		<h3 class="class_A">Good night</h>
+		<h3> class="class_A" Good night</h>
 body {
 	font-style: italic;
 	text-align: center;
