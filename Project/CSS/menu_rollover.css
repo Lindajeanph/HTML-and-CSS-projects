@@ -36,6 +36,7 @@ body {
     border: 1px solid #9D9FA2;
     border-radius: 1.5px;
     background-color: #387593;
+    cursor: pointer;
 }
 
 .menu li:hover {
@@ -64,7 +65,7 @@ visibility: visible;
        /* This also avoids a block level bug
 
 /* ok */
-.submenu li {list-style;
+.submenu li {
     background-color: #387593;
     display:block;
     color: #b3b3b3;
