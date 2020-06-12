@@ -19,7 +19,7 @@ body {
 }
 
 .menu {
-    font: bold 12px 10px sans-serif;
+    font: bold 12px/10px sans-serif;
     text-align: center; 
     display: inline;
     margin: 0;
