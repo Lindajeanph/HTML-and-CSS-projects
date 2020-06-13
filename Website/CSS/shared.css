@@ -15,7 +15,7 @@ body {
     background-color: #fff;
 }
 
-footer. 
+.footer 
 nav {
     display: block;
 }
@@ -127,13 +127,13 @@ section {
     content: "";
     top: 0;
     left: 0;
-    width: 100%:
+    width: 100%;
     position: fixed;
     z-index: 100;
 }
 
 #home {
-    background: url(../images/plantsinaline.jpg) no-repeat 50% 50%;
+    background: url(../images/planetsinaline.jpg) no-repeat 50% 50%;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -257,7 +257,7 @@ reservation {
     width: 80%;
     border-top: 1px solid #090b0d;
     border-right: 2px solid #424549;
-    border-left; 1px solid #090b0d;
+    border-left: 1px solid #090b0d;
     margin: 10px 1em;
     border-radius: 7px;
     background: 13161b;
@@ -325,7 +325,7 @@ reservation {
     }
 }
 
-@media all and (max-width:381px; and (min-width:200px) {
+@media all and (max-width:381px) and (min-width:200px) {
     .head-main {
         font-size: 24px;
     }
@@ -345,6 +345,6 @@ reservation {
 
 @media (min-width: 1200px) {
     .container {
-        width: 1170px:
+        width: 1170px;
     }
 }
