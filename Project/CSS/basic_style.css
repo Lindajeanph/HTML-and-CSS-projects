@@ -19,7 +19,7 @@ h1 {
 
 
 .container .squares:nth-child(-n+4) {
-    background-image: url("..HTML-and-CSS-projects/Project/Iconssmileyface2.png");
+    background-image: url("../icons/smileyface2.png");
     color: #fff;
     float: left;
     width: 100px;
@@ -66,12 +66,12 @@ h1 {
 /* HOVER, TRANSLATE, AND TRANSFORM EFFECTS */
 
 .container .squares:nth-child(-n+4):hover {
-    background-image: url("..icons/smileyface1.png");
+    background-image: url("../icons/smileyface2.png");
     transform: scale(.5);
     animation-name: race;
     animation-duration: 2.5s;
     animation-iteration-count:infinite;
-    animation-timing-function:cubic-bezier(2.5,.2,3,2);
+    animation-timing-function:cubic-bezier(2.5,.2,.3,2);
 }
 
 .squares:nth-child(1):hover {
@@ -100,11 +100,11 @@ h1 {
 
 @keyframes race {
     0%, 100% {
-        transform: translateY (0px)
-        background-image: url("..project/icons/smileyface1.png");
-    50%{
-        transform:translateY (330px)
+        transform: translateY(0px);
+        background-image: url("../icons/smileyface1.png");
+    }
+    50% {
+        transform:translateY(330px);
         }
     }
-}
  
