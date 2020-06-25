@@ -1,16 +1,15 @@
 h1 {
     font-family: "arial";
-    font-size: 12px;
+    font-size: 35px;
 }
 
 h1 {
-    border: 5px solid red;
+    border: 45px solid rgba(247, 142, 6, 0.883);
+    border-radius: 20px 20px 20px 20px;
+    margin: 15px;
+    width: 25px 25px 25px;
 }
 
 #rcorners1 {
     border-radius: 15px 50px 30px 5px;
 }
-<form action="/action.page.php"
-    <label for= "name"first name:</label>
-    <input type="image" width="48">
-    margin: 25px 50px 75px 100px;
