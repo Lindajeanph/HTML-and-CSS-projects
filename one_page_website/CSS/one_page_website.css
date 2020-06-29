@@ -13,3 +13,15 @@ h1 {
 #rcorners1 {
     border-radius: 15px 50px 30px 5px;
 }
+
+input {
+  border-radius: 75px;
+  margin: 10px;
+  width: 150px;
+  border: 45px solid rgba(247, 142, 6, 0.883);
+}
+
+
+width:
+margin:
+border-input:
