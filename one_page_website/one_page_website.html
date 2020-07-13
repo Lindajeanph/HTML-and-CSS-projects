@@ -6,6 +6,71 @@
 		<p><h1>Order a cartoon version of YOU!</h1></p>
 	</head>
 <body>
+	<h2 style="text-align:center">Lightbox</h2>
+
+	<div class="show">
+	  <div class="cartoon">
+		<img src="image1.jpg" style="width:100%" onclick="openModal();slide(1)" class="hover-shadow cursor">
+	  </div>
+	  <div class="cartoon">
+		<img src="image2.jpg" style="width:100%" onclick="openModal();slide(2)" class="hover-shadow cursor">
+	  </div>
+	  <div class="cartoon">
+		<img src="image3.jpg" style="width:100%" onclick="openModal();slide(3)" class="hover-shadow cursor">
+	  </div>
+	  <div class="cartoon">
+		<img src="image4.jpg" style="width:100%" onclick="openModal();slide(4)" class="hover-shadow cursor">
+	  </div>
+	</div>
+	
+	<div id="myModal" class="modal">
+	  <span class="close cursor" onclick="closeModal()">&times;</span>
+	  <div class="modal-content">
+	
+		<div class="pic">
+		  <div class="character">1 / 4</div>
+		  <img src="image1.jpg" style="width:100%">
+		</div>
+	
+		<div class="pic">
+		  <div class="character">2 / 4</div>
+		  <img src="image2.jpg" style="width:100%">
+		</div>
+	
+		<div class="pic">
+		  <div class="character">3 / 4</div>
+		  <img src="image3.jpg" style="width:100%">
+		</div>
+		
+		<div class="pic">
+		  <div class="character">4 / 4</div>
+		  <img src="image4.jpg" style="width:100%">
+		</div>
+		
+		<a class="prev" onclick="plusslides(-1)">&#10094;</a>
+		<a class="next" onclick="plusslides(1)">&#10095;</a>
+	
+		<div class="caption-container">
+		  <p id="caption"></p>
+		</div>
+	
+	
+		<div class="cartoon">
+		  <img class="demo" src="image1.jpg" style="width:100%" onclick="slide(1)" alt="Rugrats">
+		</div>
+		<div class="cartoon">
+		  <img class="demo" src="image2.jpg" style="width:100%" onclick="slide(2)" alt="Catdog">
+		</div>
+		<div class="cartoon">
+		  <img class="demo" src="image3.jpg" style="width:100%" onclick="slide(3)" alt="Daria">
+		</div>
+		<div class="cartoon">
+		  <img class="demo" src="image4.jpg" style="width:100%" onclick="slide(4)" alt="Powerpuff girls">
+		</div>
+	  </div>
+	</div>
+	
+
 	<!--NAV-->
 		<div>
 			<div>
