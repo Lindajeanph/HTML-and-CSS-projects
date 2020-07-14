@@ -24,9 +24,9 @@ function slide(n) {
 
 function showslides(n) {
   var i;
-  var slides = document.getElementsByClassName("show");
-  var dots = document.getElementsByClassName("cartoon");
-  var captionText = document.getElementById("caption");
+  var slides = document.getElementsByClassName("pic");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("character");
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
