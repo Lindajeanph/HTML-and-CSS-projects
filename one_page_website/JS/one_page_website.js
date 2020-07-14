@@ -4,16 +4,16 @@ function openmodal() {
 }
 
 // Close the Modal
-function closeModal() {
+function closemodal() {
   document.getElementById("mymodal").style.display = "none";
 }
 
 var slideIndex = 1;
-showSlides(slideIndex);
+showslides(slideIndex);
 
 // Next/previous controls
 function pic(n) {
-  showSlides(slideIndex += n);
+  showslides(slideIndex += n);
 }
 
 // Thumbnail image controls
