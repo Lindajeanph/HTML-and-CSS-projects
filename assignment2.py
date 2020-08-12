@@ -19,13 +19,13 @@ class user:
 
 
 
-new_user = user("Barbara Ann","barbara.ann@gmail.com","password", 0)
-
+new_user = user()
+new_user.login()
 
 
 
 class employee(user):
-        title = clerk
+        title = "clerk"
         department = 'General'
 
 class customer(user):
