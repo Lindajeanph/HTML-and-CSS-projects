@@ -1,41 +1,46 @@
 
-
-
 class user:
     name = 'Barbara Ann'
-    email = 'barbara.ann@gmail.com '
+    email = 'barbara.ann@gmail.com'
     password = '12345678'
-    account = 0
+   
 
     def login(self):
-        entry_email = input("enter your email:")
-        entry_password = input("enter you password:")
+        entry_name = input("Enter your name:")
+        entry_email = input("Enter your email:")
+        entry_password = input("Enter your password:")
         if (entry_email == self.email and entry_password == self.password):
             print("Welcome back, {}!".format(self.name))
         else:
             print("you are not authorized for this page.")
-
-
-
-
-
-new_user = user()
-new_user.login()
-
-
+            
 
 class employee(user):
-        title = "clerk"
+        title = 'clerk'
         department = 'General'
+        pin_number = '555'
+        badge_id = '721'
+
+        def login(self):
+            entry_name = input("Enter your name:")
+            entry_email = input("Enter your email:")
+            entry_pin_number = input("Enter your pin:")
+            if (entry_email == self.email and entry_pin_number == self.pin_number):
+                print("You clocked in!".format(entry_pin_number))
+            else:
+                print("you are not authorized for this page.")
+            
 
 class customer(user):
-        mailing_address = ' '
+        mailing_address = '123 maple street '
         mailing_list = True
+        phone_number= ' '
+        zipcode = ' '
         
+customer= user()
+customer.login()
+
+employee1 = employee()
+employee1.login()
 
 
-def __init__(self, name, email, password, account):
-    self.name = name
-    self.email = email
-    self.password = password
-    self.account = account 
