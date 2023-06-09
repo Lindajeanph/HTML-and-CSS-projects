@@ -1,0 +1,140 @@
+/*{      removes padding and margin           */
+  *{
+  padding: 0;
+  margin: 0;
+}
+
+    
+  .container {
+    padding: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    background: gainsboro;
+    color: rgb(23, 22, 22);
+    font-size: 10px;
+    text-align: left;
+    
+  }
+
+.image {
+  width: 400px;
+  height: 300px;
+  border: 1px solid #ccc;
+  margin: 20px;
+  float: right;  
+  top: 50%;
+  transform: translateY(-40%);
+}
+
+ 
+/* h1 {
+  padding: 0%;
+  padding-top: 5px;
+  font-weight: 10px;
+} */
+
+h2 {
+  
+  text-align: right;
+  padding-right: 55%;
+}
+
+h3 {
+  text-align: right;
+  padding-right: 60%
+}
+
+body {
+  background: rgba(16, 16, 137, 0.877);
+  margin: 0%;
+  color: rgb(244, 243, 243);
+}
+
+.my-button {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: rgba(255, 166, 0, 0.951);
+  color: black;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.my-button:hover {
+  background-color: white;
+}
+
+.grid-1 {
+  color: white;
+  padding-left: 10%;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.grid-2 {
+  color: white;
+  padding-left: 10%;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.grid-3 {
+  color: white;
+  padding-top: 25px;
+  padding-left: 10%;
+  font-size: 25px;
+}
+
+.grid-4 {
+  color: white;
+  padding-top: 25px;
+  padding-left: 10%;
+  font-size: 15px;
+}
+
+u {
+  color: orange;
+}
+
+.underline-hover {
+  text-decoration: none; /* Remove the underline by default */
+}
+
+.underline-hover:hover {
+  text-decoration: underline;
+}
+
+.image-container {
+  position: relative;
+}
+
+a {
+  color: white;
+}
+
+/* CSS styles for the image */
+/* .image {
+  position: relative;
+  display: block;
+
+} */
+
+/* CSS styles for the overlay */
+/* .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(244, 237, 50, 0.5);
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.overlay.active {
+  opacity: 1;
+} */
